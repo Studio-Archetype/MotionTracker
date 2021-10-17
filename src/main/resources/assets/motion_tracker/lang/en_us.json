@@ -1,0 +1,17 @@
+{
+  "text.autoconfig.motion_tracker.title": "MotionTracker Settings",
+
+  "config.motion_tracker.showRadar": "Show Radar",
+  "config.motion_tracker.alternativeBase": "Alternative Base Texture",
+  "config.motion_tracker.enableDebugRenderer": "Enable Debug Renderer",
+
+  "config.motion_tracker.distances": "Distances",
+  "config.motion_tracker.distances.totalDistance": "Total Radius",
+  "config.motion_tracker.distances.innerRingDistance": "Inner Radius",
+  "config.motion_tracker.distances.totalHeight": "Total Height",
+  "config.motion_tracker.distances.heightThreshold": "Height Threshold",
+
+  "config.motion_tracker.positioning": "User Interface",
+  "config.motion_tracker.positioning.offsetX": "X Offset",
+  "config.motion_tracker.positioning.offsetY": "Y Offset"
+}

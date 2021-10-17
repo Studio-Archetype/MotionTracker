@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "motion_tracker",
+  "version": "${version}",
+
+  "name": "Motion Tracker",
+  "description": "A simple radar styled after the Destiny games.",
+  "authors": [ "Vatuu" ],
+
+  "license": "MIT",
+  "icon": "assets/motion_tracker/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [ "dev.vatuu.motiontracker.MotionTracker" ],
+    "modmenu": [ "dev.vatuu.motiontracker.MotionTracker" ]
+  },
+
+  "mixins": [ "motiontracker.mixins.json" ],
+
+  "accessWidener": "motiontracker.accesswidener",
+
+  "depends": {
+    "fabricloader": ">=0.12.1",
+    "fabric": "*",
+    "minecraft": "1.17.*"
+  }
+}
